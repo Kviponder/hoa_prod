@@ -1,0 +1,324 @@
+/* Header component */
+.header {
+  background-color: #ff9933; /* Orange color */
+  color: #fff;
+  padding: 32px 0;
+}
+
+.header .header-title {
+  margin: 0;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-icon {
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.header nav {
+  margin-top: 16px;
+}
+
+/* Navigation component */
+.Nav {
+  background-color: #fad8b8; /* Cream color */
+  border-bottom: 1px solid #ddd;
+}
+
+.Nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Nav li {
+  text-align: center;
+  padding: 8px 0;
+  width: 25%;
+}
+
+.Nav li:hover {
+  background-color: #e9ac73; /* Cream color */
+  text-align: center;
+  padding: 8px 0;
+  width: 25%;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px 0;
+}
+
+.Nav a:hover {
+  color: #513626; /* Lighter shade of orange */
+}
+
+.Nav a:active {
+  color: #e89f71; /* Lighter shade of orange */
+}
+
+/* Footer component */
+/* Footer component */
+.footer {
+  background-color: #f9d6b7; /* Cream color */
+  padding: 2rem 0;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .social-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.footer .social-links .icon {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.footer .social-links a:hover {
+  color: #e89f71; /* Lighter shade of orange */
+}
+
+/* Profile image component */
+.profileImage {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Jumbotron component */
+.jumbotron {
+  background-color: #f9d6b7; /* Cream color */
+  color: #000;
+  padding: 48px 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.jumbotron p {
+  margin-bottom: 8px;
+}
+
+/* About Me section */
+#about {
+  padding: 48px 0;
+  background-color: #f9d6b7; /* Cream color */
+}
+
+#about h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+}
+
+#about .row {
+  display: flex;
+  flex-direction: row-reverse; /* Reverse the order of columns on smaller screens */
+  align-items: center;
+}
+
+#about .col-md-6 {
+  padding: 32px;
+}
+
+#about .col-md-6 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+#about .col-md-6 p:last-child {
+  margin-bottom: 0; /* Remove margin from the last paragraph */
+}
+
+/* Portfolio component */
+#portfolio {
+  padding: 64px 0;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+/* Project component */
+.project {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-top: 16px;
+  color: #333;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.links a {
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #f9aa5c; /* Orange color */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.links a:hover {
+  background-color: #ffb133; /* Orange color */
+  color: #fff;
+}
+
+/* Contact Form component */
+.contact-form {
+  margin-top: 32px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact-form .form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.contact-form .btn {
+  background-color: #ff9933; /* Orange color */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.contact-form .btn:hover {
+  background-color: #e89f71; /* Lighter shade of orange */
+}
+
+/* resume component */
+
+#resume-content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.pdf-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+/* Mobile Design - Up to 767px */
+@media (max-width: 767px) {
+  /* About Me */
+
+  #about .row {
+    flex-direction: column; /* Reverse the order of columns on smaller screens */
+  }
+
+  #about .col-md-6 {
+    padding: 16px;
+  }
+  /* Portfolio */
+  .portfolio-grid {
+    grid-template-columns: 1fr; /* Display projects in a single column */
+  }
+
+  .project {
+    margin: 0; /* Remove margin to conserve space on mobile screens */
+  }
+  /* Resume */
+  .pdf-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .pdf-container object {
+    height: 500px; /* Adjust the height for smaller screens */
+  }
+}
+
+/* Tablet Design - 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* About Me */
+  #about .row {
+    flex-direction: row; /* Revert layout to row on tablets */
+  }
+
+  #about .col-md-6 {
+    padding: 32px; /* Revert padding to original on tablets */
+  }
+  /* Portfolio */
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr); /* Restore 2-column layout */
+    gap: 32px; /* Restore gap between projects */
+  }
+
+  .project {
+    margin: 16px; /* Restore margin around projects */
+  }
+}
+
+/* Desktop Design - 992px and above */
+@media (min-width: 992px) {
+  #about .row {
+    flex-direction: row-reverse; /* Revert layout to row-reverse on desktop */
+  }
+
+  #about .col-md-6 {
+    padding: 32px; /* Revert padding to original on desktop */
+  }
+}
