@@ -1,4 +1,4 @@
-import banner from "../../assets/Images/banner.png";
+import banner from "../../assets/images/banner.png";
 
 function JumboTron() {
   return (
@@ -7,8 +7,8 @@ function JumboTron() {
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div class="container text-center">
-        <h1>My Portfolio</h1>
-        <p>Coding, coffee, and creativity!</p>
+        <h1>_____ Community HOA</h1>
+        <p>Communities, H's, O's, and A's!</p>
       </div>
     </div>
   );
